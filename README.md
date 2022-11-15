@@ -1,19 +1,6 @@
-<img src='/screenshots/yeeyee.jpg'>
-
-<h1 align="center">🚀✨ Widgets go brr! ✨🚀</h1>
-
-
-<p align="center">
-  <a href="https://github.com/Axarva/dotfiles-2.0/stargazers"><img src="https://img.shields.io/github/stars/Axarva/dotfiles-2.0?color=ffd5cd&style=for-the-badge&logo=starship"></a>
-  <a href="https://github.com/Axarva/dotfiles-2.0/issues"><img src="https://img.shields.io/github/issues/Axarva/dotfiles-2.0?color=d35d6e&style=for-the-badge&logo=codecov"></a>
-  <a href="https://github.com/Axarva/dotfiles-2.0/network/members"><img src="https://img.shields.io/github/forks/Axarva/dotfiles-2.0?color=84afdb&style=for-the-badge&logo=jfrog-bintray"></a>
-  <a href="https://github.com/Axarva/dotfiles-2.0/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-orange.svg?color=90c861&style=for-the-badge&logo=mitsubishi"></a>
-</p>
 
 ## Table of Contents
 
-- [About ⁉️](#about)
-- [Gallery 📷](#gal)
 - [Workflow 🖨️](#workflow)
 - [Keybinds ✍️](#keybinds)
 - [Installation 🤵‍](#inst)
@@ -24,34 +11,6 @@
 
 <a id="about"></a>
 
-## Starring:
-
-
-<img src="/screenshots/EwwLogo.png" alt="eww" align="right" height="180vh">
-
-
-- **xmonad** ⚽ 
-- **eww** 🤢
-- **firefox** 🦊
-- **rofi** 💈
-- **tint2 (My fork alone is supported)** 🍫
-- **Inhibitors** 👁️ (Inhibitors are cool stuff that prevent auto screen lock when you're watching a video or something)
-- **Healthy stuff** ❤️ (Yeah, you get notifications to fix your posture and take a break)
-- *Insert more stuff here*
-
-**A new note**: Yuck is live on the `modified` branch! I'm still not sure if the configs would work as expected (there
-have been a few changes), and I would love it if users could test it out and report issues. Thank you so much everyone
-(and eww devs, specially you guys)!
-
-Hello! Thank you for dropping by! 👋
-
-These are my xmonad configurations, and they go brr! 🚀 (Let's stop that there).
-
-If you're here, I suppose you want to be cloning this configuration, for which look at the Installation Section below. 👇 
-
-Even if you're not, just look through the gallery 📷:
-
-
 
 <a id="gal"></a>
 <img src='/screenshots/modified.png'>
@@ -59,20 +18,10 @@ Even if you're not, just look through the gallery 📷:
 <a id="workflow"></a>
 
 ## Workflow 🖨️
-Workflow GIF: (This is a short one, for more goodies look at the links below)
-The workflow doesn't differ on this branch either.
-
-(Also, compression made it look kinda bad, but I think it shows what it needs to)
-
 
 <p align="center">
   <img src="https://github.com/Axarva/gifs/blob/main/workflow.gif">
 </p>
-
-[Workflow Video by SavvyNik](https://www.youtube.com/watch?v=rMoUCnqhYfs) aka [@SavvyNik](https://github.com/SavvyNik)
-
-
-[Workflow Video by Guilherme Moreno](https://www.youtube.com/watch?v=im9QKZSMUFQ) aka [@morenoled](https://github.com/morenoled)
 
 <a id="keybinds"></a>
 ## Keybinds ✍️
@@ -107,12 +56,6 @@ Note: `Win` refers to the `Super` key.
 <a id="inst"></a>
 ## Installation 🤵‍
 Alright, let's get to the main stuff.
-
-
-If you feel like you don't want to read so much, here's a video, courtesy of [@SavvyNik](https://github.com/SavvyNik)!
-
-[Nik's Installation Video for Arch Linux](https://www.youtube.com/watch?v=a8YJBGk8H4Q)
-
 
 
 Note: Whatever method you follow, if you want the weather and quote features to work as well, you need to modify your crontab as follows: <br>
@@ -155,7 +98,6 @@ Note: THIS MAKES BACKUPS TOO, SO YEAH. JUST DO IT. DO IT!
 ```bash
 $ git clone https://github.com/Axarva/dotfiles-2.0.git
 $ cd ./dotfiles-2.0
-$ git checkout modified
 $ chmod +x ./install-on-arch.sh
 $ ./install-on-arch.sh
 ```
@@ -168,32 +110,6 @@ AND DON'T FORGET TO READ WHAT'S WRITTEN AT THE END OF THE MAIN INSTALLATION SECT
 
 
 
-<a id="other"></a>
-
-### For Gentoo Linux users (And basically any other distro): 🚂
-I'm sorry guys, I couldn't do it. I'm having a mental breakdown rn.
-
-**Piece of good advice**:  If you don't use `systemd`, go ahead and ignore this, and skip to [Going ahead: Others Edition](#ga-other).
-
-
-
-In case you do use `systemd`, I recommend opening this repository in a text editor after you clone it, and global-replace the stuff specified in [Stuff for sysd users](#sysd-replace). After that, go ahead with [Going ahead: Others Edition](#ga-other).
-
-<a id="ga-other"></a>
-
-#### Going Ahead: Others Edition
-You need to install the dependencies yourself, this script will add the fonts and the configs (AND BACK UP EXISTING ONES TOO, FOR GOD'S SAKE DON'T BE SO PARANOID):
-
-
-```bash
-$ git clone https://github.com/Axarva/dotfiles-2.0.git
-$ cd ./dotfiles-2.0
-$ git checkout modified
-$ chmod +x ./install-on-gentoo.sh
-$ ./install-on-gentoo.sh
-```
-
-AND DON'T FORGET TO READ WHAT'S WRITTEN AT THE END OF THE MAIN INSTALLATION SECTION [UP THERE](#inst). Further steps are specified there. (Yes. Absolutely needs to be shouty capitals.)
 <a id="deps"></a>
 ## Dependencies 📊
 Ahhhhh the other main stuff. Here you go, peeps. Make sure you have em all.
